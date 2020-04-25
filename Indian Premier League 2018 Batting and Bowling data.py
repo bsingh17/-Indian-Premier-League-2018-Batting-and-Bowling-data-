@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #  2)loading the dataset
-dataset=pd.read_csv('cricket.csv')
+dataset=pd.read_csv('Indian Premier League 2018 Batting and Bowling data.csv')
 dataset=dataset.drop(['PLAYER'],axis='columns')
 dataset=dataset.replace(to_replace='-',value='0')
 
