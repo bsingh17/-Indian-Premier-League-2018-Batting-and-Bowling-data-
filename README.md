@@ -4,6 +4,7 @@ The above given dataset is a statistics of 21018 IPL Matches, wherein i have per
 What is MinMaxScaler?
 The MinMaxScaler is the probably the most famous scaling algorithm, and follows the following formula for each feature:
 (xi–min(x))/(max(x)–min(x))
+
 It essentially shrinks the range such that the range is now between 0 and 1 (or -1 to 1 if there are negative values).
 This scaler works better for cases in which the standard scaler might not work so well. If the distribution is not Gaussian or the standard deviation is very small, the min-max scaler works better.
 
